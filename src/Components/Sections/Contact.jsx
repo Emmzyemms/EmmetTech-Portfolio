@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center p-y20"
+      className="min-h-screen flex items-center justify-center p-y20 "
     >
       <RevealOnScroll>
         <div className="px-4 w-150">

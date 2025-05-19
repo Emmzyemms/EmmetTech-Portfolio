@@ -6,6 +6,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   color: #f3f4f6;
   background-color: #0a0a0a;
+  overflow-x: hidden;
 }
 
 @layer utilities {

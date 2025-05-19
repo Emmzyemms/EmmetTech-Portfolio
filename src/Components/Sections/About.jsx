@@ -3,13 +3,12 @@ import RevealOnScroll from "../RevealOnScroll";
 const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "Svelte",
+    "Next.js",
     "TypeScript",
     "TailwindCss",
   ];
 
-  const backendSkills = ["Node.js", "Python", "Aws", "MangoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "Express", "Aws", "MangoDB", "GraphQL"];
 
   return (
     <section
@@ -78,7 +77,7 @@ const About = () => {
                     {" "}
                     Intern at Colab Innovation Hub (2024 - Present)
                   </strong>
-                  <p>Developed and maintained UI/Ux for web applications.</p>
+                  <p> Full Stack Web Developer, Specialized in maintaining and developing web applications.</p>
                 </div>
                 <div>
                   <strong>
