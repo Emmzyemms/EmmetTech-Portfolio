@@ -11,12 +11,17 @@ const Home = () => {
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-400 bg-clip-text text-transparent to-gray-600 leading-right">
             Hi, I'm Emmanuel Iliya
+            <p className="text-sm"> Frontend & Mobile Developer | Building seamless digital
+            experiences</p>
           </h1>
 
           <p className="text-gray-100 text-lg mb-8 max-w-lg mx-auto">
-            I'm a full-stack developer who loves crafting clean, scalable web
-            application. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+             I'm a passionate frontend and mobile developer with a
+            strong focus on creating fast, responsive, and user-centric
+            applications. With a solid foundation in HTML, CSS, JavaScript, and
+            frameworks like React and React Native for cross-platform development, I bridge the gap between
+            clean design and functional code. My goal is to build solutions that
+            offer both exceptional performance and a delightful user experience.
           </p>
 
           <div className="flex justify-center space-x-4">

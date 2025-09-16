@@ -2,13 +2,28 @@ import RevealOnScroll from "../RevealOnScroll";
 
 const About = () => {
   const frontendSkills = [
+    "JavaScript",
     "React",
     "Next.js",
     "TypeScript",
     "TailwindCss",
+    "Rest API / Restful API",
+    "Firebase",
+    "Git / GitHub",
+    "Figma",
+    "UI/UX Design",
   ];
 
-  const backendSkills = ["Node.js", "Express", "Aws", "MangoDB", "GraphQL"];
+  const backendSkills = [
+    "React Native",
+    "Expo",
+    "Node.js",
+    "TypeScript",
+    "NativeWind",
+    "Git / GitHub",
+    "Figma",
+    "UI/UX Design",
+  ];
 
   return (
     <section
@@ -27,7 +42,7 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Frontend</h3>
+                <h3 className="text-xl font-bold mb-4">Front-End</h3>
                 <div className="flex flex-wrap gaps-2">
                   {frontendSkills.map((tech, key) => (
                     <span
@@ -40,7 +55,7 @@ const About = () => {
                 </div>
               </div>
               <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Backend</h3>
+                <h3 className="text-xl font-bold mb-4">Mobile Developer / Cross-Platform</h3>
                 <div className="flex flex-wrap gaps-2">
                   {backendSkills.map((tech, key) => (
                     <span
@@ -74,18 +89,21 @@ const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <strong>
-                    {" "}
                     Intern at Colab Innovation Hub (2024 - Present)
                   </strong>
-                  <p> Full Stack Web Developer, Specialized in maintaining and developing web applications.</p>
+                  <p>
+                    {" "}
+                    Full Stack Web Developer, Specialized in maintaining and
+                    developing web applications.
+                  </p>
                 </div>
                 <div>
                   <strong>
-                    Open-Source Contributor at OnlyDust (2025 - Present){" "}
+                    Open-Source Contributor at OnlyDust (2024 - Present){" "}
                   </strong>
                   <p>
                     Assisted in building front-end components and integration
-                    REST APIs
+                    REST APIs / Restful APIs for enhanced user experience.
                   </p>
                 </div>
               </div>
